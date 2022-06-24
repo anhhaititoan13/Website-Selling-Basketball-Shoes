@@ -1,0 +1,178 @@
+button:hover{
+    cursor: pointer;
+}
+
+.content-shoes{
+    display:flex;
+    padding-top: 32px;
+}
+.content-shoes .content-shoes-image{
+    margin: 0 40px 64px 84px;
+    border: 1px solid #ccc;
+    width: 55%;
+}
+.content-shoes .content-shoes-image .carousel-indicators{
+    left:35%;
+}
+.carousel-inner img{
+    height: 450px;
+}
+
+.content-shoes .content-shoes-infor{
+    width: 65%;
+}
+
+.content-shoes-infor .content-shoes-infor-heading{
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 14px;
+}
+.content-shoes-infor .content-shoes-infor-price{
+    font-weight: 700;
+    color:blue;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.form-size-heading{
+    font-size: 16px;
+    color:#000;
+}
+
+.select-size{
+    display:flex;
+}
+
+.select-size .size{
+    border: 1px solid #ccc;
+    margin: 8px 8px 0 0;
+    padding :8px 0;
+    width:40px;
+    text-align:center;
+}
+
+.select-size .size:hover{
+    cursor: pointer;
+    background-color: blue;
+    color:#fff;
+}
+.select-size .active{
+    background-color: blue;
+    color:#fff;
+}
+
+.add-to-cart{
+    margin-top: 36px;
+}
+
+.add-to-cart input{
+    height: 44px;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 8px;
+    width: 44px;
+
+}
+
+.add-to-cart button{
+    padding: 8px 1pc;
+    margin-top: 0.5em;
+    height: 44px;
+    color:#fff;
+    background-color: blue;
+    font-size: 16px;
+    border:none;
+    border-radius:5px;
+}
+
+.add-to-cart button:hover{
+    background-color: #333;
+}
+
+.description{
+    margin: 16px 32px;
+
+}
+
+.characteristic .characteristic-heading{
+    margin-bottom: 16px;
+    font-size: 26px;
+}
+
+.characteristic .characteristic-list{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.characteristic .characteristic-item{
+    flex:1;
+    padding: 0 16px;
+}
+
+.characteristic .characteristic-item .characteristic-item-heading{
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.characteristic .characteristic-item .characteristic-item-text{
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.describe{
+    margin-top: 64px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.describe .describe-about{
+    flex:1;
+}
+
+.describe .describe-image{
+   width: 100%;
+}
+.describe .contain-img{
+    flex:3.5;
+    margin-left: 16px;
+}
+
+
+.describe .describe-about h2{
+    font-size: 26px;
+}
+
+.describe .describe-about h2:nth-child(1){
+    margin-bottom: 8px;
+}
+
+.describe .describe-about h2:nth-child(2){
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.describe .describe-about p{
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+}
+.detail-heading{
+    margin-bottom: 0;
+}
+
+.detail .detail-infor {
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom: 32px;
+}
+
+.detail .detail-list {
+    list-style: disc;
+    margin: 16px 64px 0 0;
+    line-height: 1.8;
+}
+.detail .detail-list li{
+    list-style: disc;
+}
+
+

@@ -1,0 +1,308 @@
+/* *PC */
+@media(min-width:64em){
+    .nav > li{
+        display:inline-block;
+    }
+
+    .adver {
+        flex-wrap: nowrap;
+    }
+    .adver .adver-image {
+        width: 50%;
+    }
+    .adver .adver-about {
+        width: 50%;
+    }
+    .adver .adver-image img {
+        height:100%;
+    }
+}
+
+/* *Tablet */
+@media(min-width:46.25em) and (max-width:63.9375em){
+    /* Common */
+
+    /* 1. Contact */
+    .contact ul li p {
+        line-height: 0;
+    }
+    .contact .search {
+        width: 255px;
+    }
+    .search #list-search li {
+        width: 251px;
+    }
+
+    /* 2. Header */
+    #header .other{
+        margin: 0px;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+        right: 50px;
+        font-size: 25px;
+        line-height: 100px;
+    }
+
+    /* 3. Footer */
+    
+
+    /* Trang chủ */
+
+    /* 1. Slider */
+    #slider img {
+        height: 400px;
+    }
+
+    /* 2. Content */
+    #content .heading-product {
+        font-size: 34px;
+    }
+    .shoes-item{
+        width:50%;
+    }
+
+    /* 3. Adver */
+    .adver {
+        flex-wrap: nowrap;
+    }
+    .adver .adver-image {
+        width: 50%;
+    }
+    .adver .adver-about {
+        width: 50%;
+    }
+    .adver .adver-image img {
+        height:100%;
+    }
+    
+    .adver-about .adver-about-heading {
+        font-size: 28px;
+        margin: 16px 32px 16px 32px;
+    }
+    
+    .adver-about .adver-about-item {
+        margin: 0 32px 16px 32px;
+    }
+
+    /* ---Shoes--- */
+    .content-shoes .content-shoes-image{
+        margin: 0 16px 64px 16px;
+    }
+    .carousel-inner img{
+        height: 300px;
+    }  
+    .describe{
+        flex-direction: column;
+    }
+    .detail .detail-infor {
+        justify-content:none;
+
+    }
+    .detail .detail-list {
+        flex:1;
+        margin: 16px 16px 0 0;
+    }
+    .detail .detail-list li{
+        list-style: disc;
+    }
+    .describe .describe-image{
+        margin-bottom: 32px;
+    }
+
+    /* Cửa Hàng */
+    .shop {
+        margin: 48px 0 24px 64px;
+    }
+
+    /* Tin Tức */
+    .heading{
+        font-size: 34px;
+    }
+    .news {
+        margin-right: 0;
+    }
+    .news .news-left {
+        width: 0%;
+    }
+    
+    .news .news-right {
+        width: 100%;
+        margin: 0 32px;
+    }
+}
+
+/* *Mobile */
+@media(max-width:46.1875em){
+    /* ---Common--- */
+
+    /* 1. Contact */
+    .contact .search{
+        display: none;
+    }
+    .contact ul li p {
+        line-height: 0;
+    }
+
+    /* 2. Header */
+    #header{
+        height: 70px;
+    }
+    #header .other{
+        position: absolute;
+        right: 40px;
+        line-height: 70px;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+        right: 40px;
+        font-size: 25px;
+        line-height: 70px;
+    }
+    .sticky + #content,
+    .sticky + #slider {
+        padding-top: 70px;
+    }
+    .menu-container {
+        width: 65%;
+    }
+    .menu-header{
+        text-align: center;
+    }
+    .menu-heading-icon{
+        margin-left: 16px;
+        margin-right: 0;
+    }
+    #logo {
+        height: 55px;
+        width: 55px;
+        margin-left:30px;
+        line-height: 70px;
+    }
+
+    /* 3. Footer */
+
+
+
+    /* ---Trang chủ--- */
+
+    /* 1. Slider */
+    #slider img {
+        height: 230px;
+    }
+
+    /* 2. Content */
+    #content .heading-product {
+        font-size: 24px;
+    }
+    .shoes-item{
+        width:100%;
+    }
+    /* 3. Adver */
+    .adver-about .adver-about-heading {
+        font-size: 28px;
+        margin: 16px 32px 16px 32px;
+    }
+    
+    .adver-about .adver-about-item {
+        margin: 0 32px 16px 32px;
+    }
+    
+    /* ---Shoes--- */
+    .content-shoes{
+        flex-direction: column;
+        margin-bottom: 64px;
+    }
+    .content-shoes .content-shoes-image{
+        margin: 16px;
+        width: 92%;
+    }
+    .carousel-inner img{
+        height: 300px;
+    }
+    .content-shoes .content-shoes-infor{
+        margin-left:24px;
+        width: 92%;
+    }
+    .content-shoes-infor .content-shoes-infor-heading{
+        font-size: 24px;
+    }
+    .form-size-heading {
+        margin:0;
+    }
+    .add-to-cart button{
+        margin: 0;
+    }
+    .characteristic .characteristic-list{
+        flex-direction: column;
+    }
+    .characteristic .characteristic-item{
+        padding: 0;
+    }
+    .describe{
+        flex-direction: column;
+    }
+    .describe .describe-image{
+        margin-bottom: 32px;
+        padding-right: 16px;
+    }
+    .detail .detail-infor {
+        justify-content:none;
+        flex-direction: column;
+    }
+    .detail .detail-list:nth-child(1){
+        flex:1;
+        margin: 16px 16px 0 0;
+    }
+    .detail .detail-list:nth-child(2){
+        flex:1;
+        margin: 0 16px 0 0;
+    }
+    .detail .detail-list li{
+        list-style: disc;
+    }
+    .list-item-contain-img{
+        height:78%;
+    }
+
+    /* Cửa Hàng */
+    .shop {
+        margin: 32px 16px;
+    }
+    .shop-heading {
+        font-size: 30px;
+    }
+
+    /* Tin Tức */
+    .heading{
+        font-size: 26px;
+    }
+    .news {
+        margin-right: 0;
+    }
+    .news .news-left {
+        width: 0%;
+    }
+    
+    .news .news-right {
+        width: 100%;
+        margin: 0 16px;
+    }
+    .news .news-item {
+        margin-bottom: 32px;
+    }
+    .news-item-about p{
+        display: none;
+    }
+    .news .news-item-image {
+        height: 100px;
+    }
+    
+    .news .news-item-image img {
+        width: 150px;
+        height: 100%;
+    }
+    .form-login{
+        margin: 0 16px;
+    }
+}

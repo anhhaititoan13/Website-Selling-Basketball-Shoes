@@ -1,0 +1,43 @@
+#content > .heading{
+    text-align: center;
+    margin: 64px 0 64px 0;
+}
+
+.list{
+    margin: 16px 40px;
+}
+
+.row-list{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.list-item{
+    width:400px;
+    margin-bottom: 48px;
+}
+.list-item-contain-img{
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+    height: 300px;
+}
+.list-item-contain-img:hover{
+	border: 1px solid #000;
+}
+.list-item-image{
+    width: 100%;
+}
+.list-item-contain-text{
+    text-align: center;
+}
+.list-item-name{
+    text-decoration: none;
+    font-size: 16px;
+}
+.list-item-name:hover{
+    color:blue;
+}
+.list-item-price{
+    font-size: 16px;
+    margin-top: 8px;
+}
